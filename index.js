@@ -15,3 +15,8 @@
     - Adding the method 'toLowerCase()' will lowercase your value! */
 
 
+
+ document.getElementById('usernameInput').addEventListener('keyup', function(event){
+    let username = event.target.value.toLowerCase()
+})
+
