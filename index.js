@@ -14,10 +14,16 @@
     - The 'event.target' has another property called 'value', so 'event.target.value' which in the case of our input box, gives us the value the user typed in!
     - Adding the method 'toLowerCase()' will lowercase your value! */
 
+    /*
+    Task: Capture the user's search query
+    1. Add an event listener for 'keyup'
+    2. Capture the event in a 'let' called 'searchQuery' - storing the value
+    3. Make sure the captured value is lowercase
+    4. Log to the console to demonstrate it works
+*/
 
 
- document.getElementById('usernameInput').addEventListener('keyup', function(event){
-    let username = event.target.value.toLowerCase()
+ document.getElementById('searchInput').addEventListener('keyup', function(event){
+    let searchQuery = event.target.value.toLowerCase()
 })
 
-let searchQuery = addEventListener('keyup')
