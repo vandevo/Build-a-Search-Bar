@@ -20,3 +20,4 @@
     let username = event.target.value.toLowerCase()
 })
 
+let searchQuery = addEventListener('keyup')

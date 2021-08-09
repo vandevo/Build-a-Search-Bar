@@ -4,4 +4,10 @@ html, body {
 
 .container {
     padding: 100px;
+    
+}
+
+.form-control {
+    margin-top: 5px;
+    margin-bottom: 25px;
 }
